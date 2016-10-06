@@ -1,0 +1,63 @@
+#sense{
+	padding-top: 50px;
+	width:580px;
+	height: 580px;
+	
+	margin:0 auto;
+	
+	
+}
+body{
+	background:url(../img/1142006_1.jpg) no-repeat;
+	background-size: cover;
+	
+}
+.block{
+	width:28px;
+	height: 28px;
+	background-image: url(../img/huaban.png);
+	background-size: cover;
+	
+	float: left;
+}
+#kaishi{
+	position: absolute;
+	width:80px;
+	height: 30px;
+	top:45%;
+	left:20%;
+	margin-top:-15px;
+	margin-left:-40px; 
+}
+#zanting{
+	position: absolute;
+	width:80px;
+	height: 30px;
+	top:55%;
+	left:20%;
+	margin-top:-15px;
+	margin-left:-40px; 
+}
+#reload{
+	position: absolute;
+	width:80px;
+	height: 30px;
+	top:65%;
+	left:20%;
+	margin-top:-15px;
+	margin-left:-40px; 
+}
+#score{
+
+	position: absolute;
+	width:90px;
+	height: 35px;
+	top:49%;
+	right:19.8%;
+	margin-top:-15px;
+	margin-left:-40px;
+	line-height: 35px;
+	text-align: center;
+	background: #eee; 
+	
+}
