@@ -1,0 +1,242 @@
+	body,ul,li,ol,h1,h2,h3,h4,p,form{
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+		list-style: none;
+	}
+	body{
+		background: url(../images/bj.jpg)no-repeat center center /cover;
+		height: 100vh;
+	}
+	.back{
+		width: 1024px;
+		height: 600px;
+	    position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto; 
+		border: 1px solid #000;
+		background-color: rgb(2, 24, 7);
+		overflow: hidden;
+		box-shadow: 3px 2px 4px #000;
+		background: url(../images/1.jpg)no-repeat center center;
+		background-size: cover;
+		}
+		.back img{
+		 transition:all 0.8s ease;
+	     transform:scale(1,1);
+		}
+		.back img:hover{
+		transform:scale(1.3,1.3);
+		}
+		
+	.beijing{
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		left:0;
+		top:0;
+	    right: 0;
+		bottom: 0;
+		margin: auto; 
+		background:rgb(69, 238, 108);
+		opacity: 0;
+	}
+	.back .start{
+		width: 100%;
+		height: 200px;
+		
+		position: absolute;
+		top:50%;
+		margin-top:-100px;
+		left: 0;
+		background-color:#fff;
+		color:#000;
+		opacity: 0.7; 
+		transition:all .8s ease;
+		transform:translateY(-200%);
+		z-index: 1000;
+		cursor: pointer;
+	}
+	.back .start.start1{
+		transform:translateY(0);
+	}
+	.back .start h1{
+		position: relative;
+		width: 100%;
+		height: 200px;
+		text-align: center;
+		line-height:200px;
+		color:#000;
+		
+	}
+	.back .start .shetou{
+		width: 200px;
+		height: 110px;
+		background: url(../images/4.jpg)no-repeat;
+		position: absolute;
+		left: 50%;
+		margin-left:-100px;
+		top:-110px; 
+
+	}
+	.anniu{
+		width: 200px;
+		height: 60px;
+		background-color:#ccc;
+		color: #000;
+		position:absolute;
+		bottom:10px;
+		left: 50%;
+		margin-left:-100px;
+		text-align: center;
+		line-height: 30px;
+		border-radius: 10px; 
+	}
+	.anniu h3{
+		display: block;
+		cursor: pointer;
+	}
+	.jishi{
+		width: 100px;
+		height: 40px;
+		background:rgb(2, 24, 7);
+		color: #fff;
+		position: absolute;
+		left: 40%;
+		margin-left: -100px;
+		top: 40px;
+		border-radius: 10px;
+		opacity: 0;
+	}
+	.jishi .maohao{
+		display: block;
+		width: 10%;
+		
+		text-align: right;
+		line-height: 40px;
+		text-align: center;
+		float: left;
+	}
+
+	.jishi .fen{
+		display: block;
+		
+		width: 45%;
+		text-align: right;
+		line-height: 40px;
+		text-align: center;
+		float: left;
+	}
+	.jishi .miao{
+		display: block;
+		
+		text-align: center;
+		width: 45%;
+		 float: left; 
+		text-align: left;
+		line-height: 40px;
+	}
+	.shelu{
+		float: left;
+		width:19px;
+		height: 19px;
+		border-bottom: 1px solid #000;
+		border-right: 1px solid #000;
+		position: relative;
+
+
+	}
+	.snake{
+		background: url(../images/4.jpg)no-repeat;
+		background-size: cover;
+		border-radius: 50%;
+
+	}
+	.food{
+		background: url(../images/12.jpg)no-repeat;
+		background-size: cover;
+		transition:all 0.8s ease;
+	     transform:scale(1,1);
+	}
+	.food.food1{
+		 transform:scale(2,2);
+	}
+	.flag{
+		width: 100px;
+		height: 40px;
+		background:rgb(2, 24, 7);
+		color: #fff;
+		position: absolute;
+		left: 70%;
+		margin-left: -100px;
+		top: 40px;
+		border-radius: 10px; 
+		text-align: center;
+		line-height: 40px;
+		opacity: 0;
+		cursor: pointer;
+		display: none;
+	}
+	.zhanting{
+		width: 100px;
+		height: 40px;
+		background:rgb(2, 24, 7);
+		color: #fff;
+		position: absolute;
+		left: 60%;
+		margin-left: -100px;
+		top: 40px;
+		border-radius: 10px; 
+		text-align: center;
+		line-height: 40px;
+		opacity: 0;
+		cursor: pointer;
+	}
+
+	.end.donghua1{
+		
+	      transform:translateY(0);
+	      opacity: 1;
+	}
+	.end{
+		width: 200px;
+		height: 100px;
+		text-align: center;
+		
+		background: #ccc;
+		color: #000;
+		position: absolute;
+		top:0;
+		left:0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		z-index: 1000;
+		opacity: 0;
+		transition:all 0.8s ease;
+	    transform:translateY(-300%);
+	    border-radius: 10%;
+	  
+	}
+	.end h3{
+	      
+	      height: 50px;
+		line-height: 50px;
+	    
+	}
+	.end span{
+		display: block;
+		line-height: 40px;
+	     width: 100px;
+	    box-shadow: 1px 1px 2px #000;
+	    margin: 0 auto;
+	    border-radius: 10px;
+	    cursor: pointer;
+	}
+
+
+
+
